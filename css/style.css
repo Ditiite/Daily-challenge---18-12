@@ -1,0 +1,70 @@
+body {
+    width: 100vw;
+    background-image: url(../image/land.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 10%;
+    width: 50vw;
+    height: 500px;
+    border: 20px solid #c18644;
+    padding: 0;
+}
+
+.web,
+.design {
+    height: 50%;
+    font-size: 30px;  
+    justify-content: center; 
+    display: flex;
+}
+
+.name {
+    color: white;
+    text-decoration: underline;
+    font-variant: small-caps;
+    margin-top: 100px; 
+}
+
+
+/****** WEB ******/
+.web {
+    background-image: url(../image/code1.jpg);
+    background-size: cover;
+}
+
+
+/****** DESIGN *******/
+.design {
+    background-image: url(../image/pineapple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/****** HIDDEN *****/
+.text {
+    color: #DFCDBA;
+    font-size: 20px;
+    border: 5px solid #DFCDBA;
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+    padding: 50px;
+    background-color: rgba(89, 64, 32, 0.5);
+}
+
+.text a {
+    color: #bcad9c;
+    text-decoration: none;
+}
+
+.text {
+    display: none;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+}
